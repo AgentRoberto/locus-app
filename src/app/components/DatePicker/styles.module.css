@@ -1,0 +1,16 @@
+.main {
+  display: grid;
+  place-content: center;
+  background-color: #C1BFBF;
+  color: black;
+  width: fit-content;
+  border-radius: 10px;
+}
+.titles{
+  color:white;
+}
+.btn{
+  color:#030303;
+  font-size: x-large;
+  font-weight: 900;
+}
