@@ -37,13 +37,13 @@ const CustomDatePicker = ({ onSelect }) => {
   };
 
   const inputStyles = {
-    width: '250px',
     fontSize: 'small',
-    padding: '8px',
+    padding: '13px',
     border: '1px solid #ccc',
     borderRadius: '5px',
     outline: 'none',
     height: '55px',
+    color: '#000',
   };
 
   return (

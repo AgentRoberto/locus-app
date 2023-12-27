@@ -6,7 +6,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 export default function SearchList({ location, startDate, services }) {
-  // Mock data - replace this with your actual data or API fetch
+  // Mock data - replace this with actual data or API fetch
   const mockListings = [
     {
       id: 1,
@@ -40,8 +40,13 @@ export default function SearchList({ location, startDate, services }) {
   });
 
   return (
-    <div className="search-list px-4 py-6">
-      <h2 className="text-lg font-semibold mb-4">Search Results</h2>
+    <div className="search-list bg-[#fff] text-[#dc9d9d] px-4 py-6">
+      <div style={{display: 'flex',gap: '70%'}}>
+        <h2 className="text-lg font-semibold mb-4">Events</h2>
+        <Link href={'/services'}>
+          <h2 className="text-lg text-right md:text-right font-semibold mb-4">Next: Services</h2>
+        </Link>
+      </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {filteredListings.map(listing => (
           <div key={listing.id} className="bg-white rounded-lg shadow-md p-4">

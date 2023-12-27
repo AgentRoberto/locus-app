@@ -1,16 +1,16 @@
 .main {
   display: grid;
   place-content: center;
-  background-color: #C1BFBF;
-  color: black;
+  background-color: #dc9d9d;
+  color: #fbfaf3;
   width: fit-content;
   border-radius: 10px;
 }
 .titles{
-  color:white;
+  color:#fbfaf3;
 }
 .btn{
-  color:#030303;
+  color:#fbfaf3;
   font-size: x-large;
   font-weight: 900;
 }

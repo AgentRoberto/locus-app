@@ -17,6 +17,6 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: theme('colors.salmon');
+  color: theme('colors.salmon');
+  background: theme('colors.cream');
 }
